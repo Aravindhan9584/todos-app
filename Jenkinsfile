@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DEPLOY_DIR = "directory"
-        GITHUB_REPO = "github_repo"
+        GITHUB_REPO = "https://github.com/Aravindhan9584/todos-app.git"
         EC2_HOST = "host"
         EC2_USER = "ec2_user"
         SSH_KEY_PATH = "automation.pem"
