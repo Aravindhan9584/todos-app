@@ -2,11 +2,11 @@ pipeline:
   agent: any
 
   environment:
-    DEPLOY_DIR: "directory"  # Path where your HTML files are deployed on the EC2 instance
-    GITHUB_REPO: "github_repo"  # URL of your GitHub repository
-    EC2_HOST: "host"  # Public IP address of your EC2 instance
-    EC2_USER: "ec2_user"  # EC2 username
-    SSH_KEY_PATH: "automation.pem"  # Path to your private SSH key for accessing the EC2 instance
+    DEPLOY_DIR: "directory" 
+    GITHUB_REPO: "github_repo"  
+    EC2_HOST: "host"  
+    EC2_USER: "ec2_user" 
+    SSH_KEY_PATH: "automation.pem" 
 
   stages:
     - stage: Checkout
